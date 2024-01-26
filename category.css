@@ -1,0 +1,42 @@
+.category {
+    background-color: #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.category-wrap {
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+
+.category-title {
+    text-align: left;
+    padding: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+    margin-right: auto;
+}
+
+.cards-box {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.card {
+    border: 0.5px solid #f2f2f2;
+    width: 120px;
+    box-sizing: border-box;
+    height: 120px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 5px 0px #f2f2f2;
+}
+
+.card > img {
+    width: 83px;
+}
